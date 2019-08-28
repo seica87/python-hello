@@ -1,0 +1,15 @@
+git clone ''
+#가져오고 싶은 계정의 레파지토리를 클론 해 온다.
+
+
+git status
+# 로컬에서 수정한 파일 이 있는지 확인
+
+git add hello.py
+# git에 업로드 할 파일을 add
+
+git commit -m ""
+# git에 업로드 할때 코멘트를 적는다.
+
+git push origin master
+# 최종적으로 git에 반영할 것
