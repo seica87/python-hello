@@ -21,3 +21,15 @@ git branch [name]
 
 git checkout [name]
 # 현재 브랜치를 이동
+
+git full
+# 원격에 있는 데이터를 로컬로 최신반영
+
+git init
+# 해당 디렉토리를 git으로 관리
+
+git remote add origin [url]
+# 해당 디렉토리를 git이랑 연결
+
+git remote -v
+# 해당 디렉토리가 어떤 git에 연결 되어있을 때 확인
