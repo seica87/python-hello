@@ -1,54 +1,55 @@
-# # # # # # print('hello Py!!!!')
-# # # # # # print("hello world!!!!!!!!!!!!!!!!")
-# # # # # # print("git!!!!!!!!!!!!!!!!!!!!!!!")
+# print('hello Py!!!!')
+# print("hello world!!!!!!!!!!!!!!!!")
+# print("git!!!!!!!!!!!!!!!!!!!!!!!")
 
-# # # # # # dup = 1
-# # # # # # while dup <=10:
-# # # # # #     print(dup)
-# # # # # #     dup = dup+1
-
-
-# # # # # prompt = """
-# # # # # 1. Add
-# # # # # 2. Del
-# # # # # 3. List
-# # # # # 4. Quit
-
-# # # # # Enter number : """
-# # # # # # number = 0
-# # # # # # while number != 4:
-# # # # # #     print(prompt)
-# # # # # #     number = int(input())
+# dup = 1
+# while dup <=10:
+#      print(dup)
+#      dup = dup+1
 
 
-# # # # # number = 0
-# # # # # while number != 4:
-# # # # #     print(prompt)
-# # # # #     number = int(input())
-# # # # #     print('*' * 79)
-# # # # #     print("your input nuber : {}".format(number))
-# # # # #     print('*' * 79)
+#prompt = """
+# 1. Add
+# 2. Del
+# 3. List
+# 4. Quit
 
-# # # # import time
-# # # # while True:
-# # # #     print("컨트롤+C를 눌러 빠져나오세요.")
-# # # #     time.sleep(1)
+# Enter number : """
+# number = 0
+# while number != 4:
+#      print(prompt)
+#      number = int(input())
 
-# # # lst = [1,10]
 
-# # # for a in lst:
-# # #     print(a)
-# # scores = [100, 90, 80, 70, 100]
+# number = 0
+# while number != 4:
+#     print(prompt)
+#     number = int(input())
+#     print('*' * 79)
+#     print("your input nuber : {}".format(number))
+#     print('*' * 79)
 
-# # tot=0
+# import time
+# while True:
+#     print("컨트롤+C를 눌러 빠져나오세요.")
+#     time.sleep(1)
 
-# # for score in scores:
-# #     tot = tot + score
+# lst = [1,10]
 
-# # avg = tot / len(scores)
+# for a in lst:
+#     print(a)
 
-# # print("총점은 {}점 입니다.".format(tot))
-# # print("평균은 {}점 입니다.".format(avg))
+# scores = [100, 90, 80, 70, 100]
+
+# tot=0
+
+# for score in scores:
+#     tot = tot + score
+
+# avg = tot / len(scores)
+
+# print("총점은 {}점 입니다.".format(tot))
+# print("평균은 {}점 입니다.".format(avg))
 
 # for i in range(1,101):
 #     print(i)
