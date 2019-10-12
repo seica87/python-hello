@@ -107,9 +107,9 @@
 #     f.write('{} Line.\n'.format(i+1))
 # f.close()
 
-f = open('newfile.txt')
+# f = open('newfile.txt')
 
-e = open('sq19-sa-04 - 10.50.0.14.log')
+# e = open('sq19-sa-04 - 10.50.0.14.log')
 
 # while True:
 #     line = e.readline()
@@ -154,16 +154,99 @@ e = open('sq19-sa-04 - 10.50.0.14.log')
 
 
 
-def is_odd(a):
-    tnf = a % 2
-    if tnf == 0:
-        print('짝수입니다.')
-    else:
-        print('홀수입니다.')
+# def is_odd(a):
+#     tnf = a % 2
+#     if tnf == 0:
+#         print('짝수입니다.')
+#     else:
+#         print('홀수입니다.')
 
-print('종료 하려면 0을 입력하세요.')
-while True:
-    a = int(input('숫자를 입력하세요\n:'))
-    if a == 0:
-        break
-    is_odd(a)
+# print('종료 하려면 0을 입력하세요.')
+# while True:
+#     a = int(input('숫자를 입력하세요\n:'))
+#     if a == 0:
+#         break
+#     is_odd(a)
+
+
+
+print('## 1번 문제')
+a = 80
+b = 75
+c = 55
+
+print((a+b+c)/3)
+
+print('## 2번 문제')
+자연수 = 2
+one = 자연수 % 2
+
+if one == 0:
+    print('짝수인뎁쇼?')
+else:
+    print('홀수입니다만?')
+
+print('## 3번 문제')
+홍길동 = '881120-1068234'
+생년월일 = 홍길동[:6]
+식별번호 = 홍길동[7:]
+
+print('생년월일은 {}'.format(생년월일))
+print('식별변호는 {}'.format(식별번호))
+
+print('## 4번 문제')
+print(홍길동[7])
+
+
+print('## 5번 문제')
+replace = "a:b:c:d"
+print(replace.replace(':', '#'))
+
+
+print('## 6번 문제')
+listnum = [1, 3, 5, 4, 2]
+listnum.sort()
+listnum.reverse()
+print(listnum)
+
+print('## 7번 문제')
+life = " ".join(['life', 'is', 'to', 'sort'])
+print(life)
+
+print('## 8번 문제')
+tupa = (1, 2, 3)
+tupb = (4,)
+print(tupa + tupb)
+
+print('## 9번 문제')
+dica = dict()
+dicb = dict()
+dicc = dict()
+dicd = dict()
+dica['name'] = 'python'
+dicb[('a',)] = 'python'
+# dicc[[1]] = 'python' 리스트는 변하는 값이므로 딕셔너리에서 사용할 수 없다.
+dicd[250] = 'python'
+
+print(dica)
+print(dicb)
+# print(dicc)
+print(dicd)
+
+print('## 10번 문제') 
+trace = {'a':90, 'b':80, 'c':70}
+pop = trace.pop('b')
+print(trace)
+print(pop)
+
+print('## 11번 문제') 
+rm = [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5]
+rmm = set(rm)
+rmmm = list(rmm)
+print(rmmm)
+
+print('## 12번 문제')
+
+first = second = [1, 2, 3]
+second[0] = 4
+print(first)
