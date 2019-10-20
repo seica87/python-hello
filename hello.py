@@ -250,3 +250,6 @@ print('## 12번 문제')
 first = second = [1, 2, 3]
 second[0] = 4
 print(first)
+
+
+## 오늘은 MAC개발 환경 셋팅
