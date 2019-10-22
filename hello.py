@@ -170,86 +170,129 @@
 
 
 
-print('## 1번 문제')
-a = 80
-b = 75
-c = 55
+# print('## 1번 문제')
+# a = 80
+# b = 75
+# c = 55
 
-print((a+b+c)/3)
+# print((a+b+c)/3)
 
-print('## 2번 문제')
-자연수 = 2
-one = 자연수 % 2
+# print('## 2번 문제')
+# 자연수 = 2
+# one = 자연수 % 2
 
-if one == 0:
-    print('짝수인뎁쇼?')
-else:
-    print('홀수입니다만?')
+# if one == 0:
+#     print('짝수인뎁쇼?')
+# else:
+#     print('홀수입니다만?')
 
-print('## 3번 문제')
-홍길동 = '881120-1068234'
-생년월일 = 홍길동[:6]
-식별번호 = 홍길동[7:]
+# print('## 3번 문제')
+# 홍길동 = '881120-1068234'
+# 생년월일 = 홍길동[:6]
+# 식별번호 = 홍길동[7:]
 
-print('생년월일은 {}'.format(생년월일))
-print('식별변호는 {}'.format(식별번호))
+# print('생년월일은 {}'.format(생년월일))
+# print('식별변호는 {}'.format(식별번호))
 
-print('## 4번 문제')
-print(홍길동[7])
-
-
-print('## 5번 문제')
-replace = "a:b:c:d"
-print(replace.replace(':', '#'))
+# print('## 4번 문제')
+# print(홍길동[7])
 
 
-print('## 6번 문제')
-listnum = [1, 3, 5, 4, 2]
-listnum.sort()
-listnum.reverse()
-print(listnum)
+# print('## 5번 문제')
+# replace = "a:b:c:d"
+# print(replace.replace(':', '#'))
 
-print('## 7번 문제')
-life = " ".join(['life', 'is', 'to', 'sort'])
-print(life)
 
-print('## 8번 문제')
-tupa = (1, 2, 3)
-tupb = (4,)
-print(tupa + tupb)
+# print('## 6번 문제')
+# listnum = [1, 3, 5, 4, 2]
+# listnum.sort()
+# listnum.reverse()
+# print(listnum)
 
-print('## 9번 문제')
-dica = dict()
-dicb = dict()
-dicc = dict()
-dicd = dict()
-dica['name'] = 'python'
-dicb[('a',)] = 'python'
-# dicc[[1]] = 'python' 리스트는 변하는 값이므로 딕셔너리에서 사용할 수 없다.
-dicd[250] = 'python'
+# print('## 7번 문제')
+# life = " ".join(['life', 'is', 'to', 'sort'])
+# print(life)
 
-print(dica)
-print(dicb)
-# print(dicc)
-print(dicd)
+# print('## 8번 문제')
+# tupa = (1, 2, 3)
+# tupb = (4,)
+# print(tupa + tupb)
 
-print('## 10번 문제') 
-trace = {'a':90, 'b':80, 'c':70}
-pop = trace.pop('b')
-print(trace)
-print(pop)
+# print('## 9번 문제')
+# dica = dict()
+# dicb = dict()
+# dicc = dict()
+# dicd = dict()
+# dica['name'] = 'python'
+# dicb[('a',)] = 'python'
+# # dicc[[1]] = 'python' 리스트는 변하는 값이므로 딕셔너리에서 사용할 수 없다.
+# dicd[250] = 'python'
 
-print('## 11번 문제') 
-rm = [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5]
-rmm = set(rm)
-rmmm = list(rmm)
-print(rmmm)
+# print(dica)
+# print(dicb)
+# # print(dicc)
+# print(dicd)
 
-print('## 12번 문제')
+# print('## 10번 문제') 
+# trace = {'a':90, 'b':80, 'c':70}
+# pop = trace.pop('b')
+# print(trace)
+# print(pop)
 
-first = second = [1, 2, 3]
-second[0] = 4
-print(first)
+# print('## 11번 문제') 
+# rm = [1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 5]
+# rmm = set(rm)
+# rmmm = list(rmm)
+# print(rmmm)
+
+# print('## 12번 문제')
+
+# first = second = [1, 2, 3]
+# second[0] = 4
+# print(first)
 
 
 ## 오늘은 MAC개발 환경 셋팅
+
+# a = "Life is too short, you need python"
+
+# if "wife" in a: print("wife")
+# elif "python" in a and "you" not in a: print("python")
+# elif "shirt" not in a: print("shirt")
+# elif "need" in a: print("need")
+# else: print("none")
+
+
+# trd = 0
+# total = 0
+
+# while trd < 1000:
+#     trd = trd + 1
+#     if trd % 3 == 0 :
+#         total = total + trd
+
+# print(total)
+
+# star = "*"
+# num = 0
+# while num < 5:
+#     num = num + 1
+#     print(star*num)
+
+# a = range(100)
+# for i in a:
+#     i = i + 1
+#     print(i)
+
+# a = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
+# total = 0
+# num = 0
+# for i in a:
+#     total = total + i
+#     num = num + 1
+
+# print(total/num)
+
+numbers = [1, 2, 3, 4, 5]
+result=[num * 2 for num in numbers if num % 2 == 1]
+print(result)
