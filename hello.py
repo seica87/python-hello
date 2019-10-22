@@ -293,6 +293,40 @@
 
 # print(total/num)
 
-numbers = [1, 2, 3, 4, 5]
-result=[num * 2 for num in numbers if num % 2 == 1]
-print(result)
+# numbers = [1, 2, 3, 4, 5]
+# result=[num * 2 for num in numbers if num % 2 == 1]
+# print(result)
+
+
+# def say_myself(name, old, man=True):
+#     print("나의 이름은 {}입니다.".format(name))
+#     print("나이는 {}살입니다.".format(old))
+#     if man:
+#         print("남자입니다.")
+#     else:
+#         print("여자입니다.")
+
+# say_myself("윤성화", 28)
+
+def is_odd(a):
+    if a % 2 == 0:
+        print("짝수 입니다.")
+    else:
+        print("홀수입니다.")
+
+is_odd(9999)
+
+def avg(*args):
+    result = 0
+    for i in args:
+        result += i
+    return result / len(args)
+    
+a = avg(1, 2, 3, 4, 5)
+print(a)
+
+input1 = input("첫번째 숫자를 입력하세요 :")
+input2 = input("두번째 숫자를 입력하세요 :")
+
+total = int(input1) + int(input2)
+print("두 수의 합은 {}입니다.".format(total))
